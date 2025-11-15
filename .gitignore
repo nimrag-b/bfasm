@@ -1,0 +1,6 @@
+fasm/
+*.exe
+*.asm
+*.b
+*.bf
+*.obj
