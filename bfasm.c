@@ -30,7 +30,7 @@ int assemble(char *cur_folder, char *filename, char *asm_name, char* exe_name){
     strcat(exe_name,".exe");
 
     char cmd[1024];
-    sprintf(cmd,"fasmw17332\\FASM.EXE %s %s",asm_name,exe_name);
+    //sprintf(cmd,"fasmw17332\\FASM.EXE %s %s",asm_name,exe_name); //dont call directly 
 
     sprintf(cmd,"assemble.bat %s %s",asm_name,exe_name);
 
