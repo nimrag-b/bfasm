@@ -1,3 +1,9 @@
 Converts brainfuck code to FASM x86 assembly for Windows
 
-once code is generated, just assemble with FASM (https://flatassembler.net/) to generate a working exe
+Usage:
+
+Build bfasm.c in the same folder as assemble.bat and the fasm directory.
+
+Run via command line: './bfasm.exe [your brainfuck file here]'
+
+IT WILL NOT WORK IF YOU DONT RUN THE PROGRAM FROM THE FOLDER THAT IT IS IN
