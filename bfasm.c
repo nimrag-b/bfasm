@@ -5,8 +5,6 @@
 
 #define MEM_CELLS 30000
 
-char mem[MEM_CELLS];
-
 #define BRACKET_STACK_SIZE 256
 
 
